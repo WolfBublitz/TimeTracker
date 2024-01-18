@@ -1,4 +1,7 @@
 ﻿using System.CommandLine;
+using TimeTracker;
+
+TimeTrackerContext context = new();
 
 Command projectCommand = new("project", "Create a new project");
 
